@@ -1,0 +1,49 @@
+{
+  "name": "backendtesting",
+  "version": "1.0.0",
+  "description": "Student resource for learning about testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/patriques82/backendtesting.git"
+  },
+  "keywords": [
+    "testing",
+    "unittesting",
+    "integrationtesting",
+    "jest",
+    "supertest"
+  ],
+  "author": "Patrik Nygren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patriques82/backendtesting/issues"
+  },
+  "homepage": "https://github.com/patriques82/backendtesting#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb-memory-server": "^9.1.8",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "regenerator-runtime": "^0.14.1",
+    "supertest": "^6.3.4"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
